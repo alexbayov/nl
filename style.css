@@ -27,6 +27,39 @@ p {
 margin-top: -5px;
 }
 
+nav li {
+	font-weight: 300;
+	font-size: 20px;
+	margin-right: 10px;
+	display: inline;
+	padding-left: 20px;
+	padding-right: 30px;
+}
+
+nav ul {
+	padding-top: 20px;
+}
+
+li a {
+	color: white;
+}
+
+.info{
+	list-style: none;
+	color: white;
+	padding-left: 60px; 
+	line-height: 30px;
+	font-size: 20px;
+	padding-right: 40px;
+}
+.info li {
+	margin-top: 10px;
+}
+
+.info:nth-child(2) li {
+	line-height: 20px;
+}
+
 span {
 	color: #ffa800;
 	padding-right: 40px;
@@ -207,6 +240,18 @@ a.button:active { background: rgb(152,15,0); } /* при нажатии */
 .text-fifth {
     font-size: 28px;
     padding: 40px 0 20px 55px;
+}
+
+.text-sixth {
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.text-seventh {
+    margin-top: -10px;
+    line-height: 150%;
+
+    89833156797
 }
 
 .connect {
