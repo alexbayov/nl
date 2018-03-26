@@ -1,0 +1,311 @@
+body {
+	background-color: rgba(0, 0, 55, 0.3);
+	width: 650px;
+	margin: 0 auto;
+}
+
+.header {
+	height: 215px;
+}
+
+.header-left {
+	float: left;
+	background: #4cb62c url(images/logo.png) no-repeat center;
+	width: 210px;
+	height: 215px;
+}
+
+.header-right {
+	float: left;
+	background: #6c6c6c url(images/abstract-figure-header-right.png) no-repeat center;
+	width: 440px;
+	height: 215px;
+	font-family: "Myriad Pro", sans-serif;
+}
+
+p {
+margin-top: -5px;
+}
+
+nav li {
+	font-weight: 300;
+	font-size: 20px;
+	margin-right: 10px;
+	display: inline;
+	padding-left: 20px;
+	padding-right: 30px;
+}
+
+nav ul {
+	padding-top: 20px;
+}
+
+li a {
+	color: white;
+}
+
+.info{
+	list-style: none;
+	color: white;
+	padding-left: 60px; 
+	line-height: 30px;
+	font-size: 20px;
+	padding-right: 40px;
+}
+.info li {
+	margin-top: 10px;
+}
+
+.info:nth-child(2) li {
+	line-height: 20px;
+}
+
+span {
+	color: #ffa800;
+	padding-right: 40px;
+}
+
+.content-first {
+	background: url(images/bg-cloud.png) no-repeat center;
+	height: 465px;
+}
+
+.phone-first {
+	background: url("images/phone.png") no-repeat 95% -80%;
+	height: 465px;
+}
+
+.phone-second {
+    background: url("images/NL-assist.png") no-repeat 85% 50%;
+    height: 100%;
+}
+
+.logo {
+    background: url("images/NL-int.png") no-repeat 10% 15%;
+    height: 100%;
+}
+
+.hello {
+    padding: 175px 50px;
+    color: white;
+    font-size: 22px;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+.hello p {
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+a.button {
+    font-size: 16px;
+    color: #fff; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background: rgb(255,168,0); /* фон кнопки */
+    padding: .7em 1.5em; /* отступ от текста */
+    border-radius: 5px;
+}
+a.button:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+a.button:active { background: rgb(152,15,0); } /* при нажатии */
+
+.content-second {
+    margin-top: -16px;
+	background: #fefefe url(images/pattern.png) no-repeat 0 -450px;
+	height: 425px;
+}
+
+.text {
+    width: 470px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    padding: 60px 50px 0px 60px;
+    font-family: "Myriad Pro", sans-serif;
+    list-style: none;
+}
+
+.text li {
+    margin-bottom: 25px;
+}
+
+.text strong {
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.content-second span {
+    font-size: 30px;
+}
+
+.content-third {
+    background: url(images/pattern-second.png) no-repeat;
+	height: 780px;
+    color: white;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+.text-second {
+    width: 280px;
+    position: relative;
+    left: 290px;
+    bottom: 30px;
+    font-size: 30px;
+}
+
+.ul-first {
+    padding-left: 0;
+    list-style: none;
+    font-size: 18px;
+}
+
+.ul-first li {
+    padding-bottom: 10px;
+}
+
+.ul-second li {
+    padding-left: 15px;
+    margin-left: -25px;
+    list-style-image: url(images/ellips.png);
+}
+
+.text-third {
+    padding-top: 20px;
+    position: relative;
+    margin-left: -15px;
+    text-align: center;
+    width: 550px;
+    font-size: 17px;
+    border: 2px solid white;
+    left: 32px;
+    bottom: 19px;
+}
+
+.cirle {
+    position: relative;
+    bottom: 40px;
+    right: 25px;
+    background: url(images/ellips-2.png) no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+.cirle:before {
+    position: relative;
+    content: "+";
+    color: #1f8cd7;
+    bottom: 1px;
+    font-size: 30px;
+    left: 7px;
+}
+
+.text-forth {
+    position: relative;
+    /*margin-left: 10px;*/
+    width: 550px;
+    font-size: 17px;
+    left: 17px;
+}
+
+.phone-third {
+    position: relative;
+    top: 70px;
+    left: 50px;
+    background: url(images/phone-2.png) no-repeat;
+    height: 100%;
+}
+
+.coffee {
+    position: relative;
+    left: 385px;
+    bottom: 20px;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+
+.display {
+    position: relative;
+    top: 58px;
+    left: 15px;
+    background: url(images/phone-2-display.png) no-repeat;
+    height: 100%;
+}
+
+.content-fourth {
+    vertical-align:top;
+	background-color: #ffffff;
+	height: 450px;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+.text-fifth {
+    font-size: 28px;
+    padding: 40px 0 20px 55px;
+}
+
+.text-sixth {
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.text-seventh {
+    margin-top: -10px;
+    line-height: 150%;
+
+    89833156797
+}
+
+.connect {
+    position: relative;
+    right: 20px;
+    margin-top: 5px;
+    list-style-image: url(images/ellips-3.png);
+}
+
+.connect li {
+    padding-left: 15px;
+    line-height: 150%;
+}
+
+.footer-first {
+	background-color: #f6f6f6;
+	height: 305px;
+    overflow:hidden;
+    width:650px;
+}
+
+.container{
+    white-space:nowrap;
+    text-align: center;
+}
+
+
+.nl-app-first,
+.nl-app-second {
+    width:300px;
+    height: 300px;
+    display:inline-block;
+    border:1px solid black;
+}
+
+.nl-app-first {
+    background-color: #f6f6f6;
+}
+
+.nl-app-second {
+    background-color: #f6f6f6;
+}
+
+.footer-second {
+	background-color: #ffffff;
+	height: 230px;
+}
+
+.footer-third {
+	background-color: #f6f6f6;
+	height: 235px;
+}
+
+.footer-fourth {
+	background-color: #ffffff;
+	height: 275px;
+}
