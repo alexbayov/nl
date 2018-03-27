@@ -24,7 +24,8 @@ body {
 }
 
 p {
-margin-top: -5px;
+    margin-top: -5px;
+    font-family: "Myriad Pro", sans-serif;
 }
 
 nav li {
@@ -250,8 +251,6 @@ a.button:active { background: rgb(152,15,0); } /* при нажатии */
 .text-seventh {
     margin-top: -10px;
     line-height: 150%;
-
-    89833156797
 }
 
 .connect {
@@ -269,30 +268,7 @@ a.button:active { background: rgb(152,15,0); } /* при нажатии */
 .footer-first {
 	background-color: #f6f6f6;
 	height: 305px;
-    overflow:hidden;
     width:650px;
-}
-
-.container{
-    white-space:nowrap;
-    text-align: center;
-}
-
-
-.nl-app-first,
-.nl-app-second {
-    width:300px;
-    height: 300px;
-    display:inline-block;
-    border:1px solid black;
-}
-
-.nl-app-first {
-    background-color: #f6f6f6;
-}
-
-.nl-app-second {
-    background-color: #f6f6f6;
 }
 
 .footer-second {
@@ -303,6 +279,71 @@ a.button:active { background: rgb(152,15,0); } /* при нажатии */
 .footer-third {
 	background-color: #f6f6f6;
 	height: 235px;
+}
+
+.container {
+    width: 600px;
+    height: 305px;
+}
+
+.nl-app-first {
+    float: left;
+    width: 300px;
+    height: 290px;
+}
+
+.info-app {
+}
+
+.info-app-img {
+    position: relative;
+    top: 40px;
+    left: 55px;
+    width: 73px;
+    height: 73px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.info-app-text {
+    position: relative;
+    bottom: 30px;
+    left: 145px;
+    font-size: 17px;
+}
+
+.info-app-text strong {
+    font-size: 28px;
+
+}
+
+.button-app {
+    background: black;
+    width: 182px;
+    height: 49px;
+    border-radius: 3px;
+    position: relative;
+    left: 55px;
+    bottom: 10px;
+    margin-top: 15px;
+}
+
+.image {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+}
+
+.second {
+
+}
+
+.nl-app-second {
+    /*background: darkmagenta;*/
+}
+
+.nl-app-first,
+nl-app-second {
 }
 
 .footer-fourth {
