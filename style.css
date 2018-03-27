@@ -321,7 +321,7 @@ a.button:active { background: rgb(152,15,0); } /* при нажатии */
     background: black;
     width: 182px;
     height: 49px;
-    border-radius: 3px;
+    border-radius: 5px;
     position: relative;
     left: 55px;
     bottom: 10px;
@@ -331,20 +331,26 @@ a.button:active { background: rgb(152,15,0); } /* при нажатии */
 .image {
     position: absolute;
     top: 15%;
-    left: 20%;
+    left: 15%;
 }
 
-.second {
-
+.buttons-second {
+    position: relative;
+    left: 300px;
 }
 
-.nl-app-second {
-    /*background: darkmagenta;*/
+a.button {
+    font-size: 16px;
+    color: #fff; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background: rgb(255,168,0); /* фон кнопки */
+    padding: .7em 1.5em; /* отступ от текста */
+    border-radius: 5px;
 }
+a.button:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+a.button:active { background: rgb(152,15,0); } /* при нажатии */
 
-.nl-app-first,
-nl-app-second {
-}
 
 .footer-fourth {
 	background-color: #ffffff;
