@@ -276,11 +276,6 @@ a.button:active { background: rgb(152,15,0); } /* при нажатии */
 	height: 230px;
 }
 
-.footer-third {
-	background-color: #f6f6f6;
-	height: 235px;
-}
-
 .container {
     width: 600px;
     height: 305px;
@@ -290,9 +285,6 @@ a.button:active { background: rgb(152,15,0); } /* при нажатии */
     float: left;
     width: 300px;
     height: 290px;
-}
-
-.info-app {
 }
 
 .info-app-img {
@@ -339,20 +331,127 @@ a.button:active { background: rgb(152,15,0); } /* при нажатии */
     left: 300px;
 }
 
-a.button {
-    font-size: 16px;
+a.button-blue {
+    position: relative;
+    left: 3.5em;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 17px;
     color: #fff; /* цвет текста */
     text-decoration: none; /* убирать подчёркивание у ссылок */
     user-select: none; /* убирать выделение текста */
-    background: rgb(255,168,0); /* фон кнопки */
+    background: rgb(52,172,224); /* фон кнопки */
     padding: .7em 1.5em; /* отступ от текста */
     border-radius: 5px;
 }
-a.button:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
-a.button:active { background: rgb(152,15,0); } /* при нажатии */
+a.button-blue:hover { background: rgb(9,112,157); } /* при наведении курсора мышки */
+a.button-blue:active { background: rgb(152,15,0); } /* при нажатии */
 
+.footer-zaplatka {
+    background-color: #ffa800;
+    height: 0px;
+    width:650px;
+    float: right;
+} /* Костыль, без него не работает ни х */
+
+.footer-third {
+    background: #f6f6f6;
+    height: 235px;
+}
+
+.cont-second {
+    /*margin: 0px auto;*/
+    /*height: 235px;*/
+    display: inline-block;
+}
+
+
+.footer-third .nl-app-first {
+    position: relative;
+    bottom:50px;
+    left: 25%;
+}
+
+
+
+.button-neboskreb-first {
+    background: black;
+    width: 182px;
+    height: 49px;
+    border-radius: 5px;
+    position: relative;
+    right: 25px;
+    bottom: 21px;
+    margin-top: 15px;
+}
+
+.button-neboskreb-second {
+    background: black;
+    width: 182px;
+    height: 49px;
+    border-radius: 5px;
+    position: relative;
+    left: 175px;
+    bottom: 85px;
+    margin-top: 15px;
+}
 
 .footer-fourth {
 	background-color: #ffffff;
 	height: 275px;
+    overflow: hidden;
 }
+
+.social {
+    font-size: 40px;
+    width: 70%;
+    height: 50%;
+
+    margin: 0 auto;
+}
+
+.social-text {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.widget-social {
+    width: 650px;
+    display: block;
+    color: black;
+    text-align: left;
+    position: relative;
+    bottom: 30px;
+    right: 50px;
+
+}
+
+.widget-social a {
+    color: black;
+    font-size: 20px;
+    margin-right: 50px;
+    font-family: "Myriad Pro", sans-serif;
+    text-align: center;
+}
+
+.widget-social li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.widget-social img {
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+
+.last-text {
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+}
+
+.last-text a:visited{
+    color: black;
+}
+
