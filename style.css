@@ -346,12 +346,6 @@ a.button-blue {
 a.button-blue:hover { background: rgb(9,112,157); } /* при наведении курсора мышки */
 a.button-blue:active { background: rgb(152,15,0); } /* при нажатии */
 
-.footer-zaplatka {
-    background-color: #ffa800;
-    height: 0px;
-    width:650px;
-    float: right;
-} /* Костыль, без него не работает ни х */
 
 .footer-third {
     background: #f6f6f6;
